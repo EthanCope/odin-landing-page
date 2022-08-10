@@ -14,7 +14,7 @@
   justify-content: space-between;
 }
 .logo {
-  margin-left: 20px;
+  margin-left: 24px;
   font-size: 20px;
 }
 .header-link-container {
@@ -34,16 +34,23 @@ a:visited {
 .greeting {
   display: flex;
   width: auto;
-  height: 250px;
+  height: 380px;
   background-color: #1f2937;
   color: white;
+  justify-content: center;
+  align-items: center;
 }
 .intro-text {
-  width: 500px;
+  width: 450px;
+  margin-right: 50px;
 }
 .header-text {
   font-size: 48px;
   margin: 0;
+}
+.discription {
+  margin: 0;
+  font-size: 18px;
 }
 
 .card-container {
@@ -63,4 +70,18 @@ a:visited {
 footer {
   display: flex;
   background-color: #1f2937;
+}
+button {
+  padding: 6px 26px;
+  background-color: #3882f6;
+  border-radius: 8px;
+  border: 1px solid white;
+  margin: 5px;
+  margin-left: 0;
+  color: white;
+  transition-duration: 0.4s;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #3881f6db;
 }
