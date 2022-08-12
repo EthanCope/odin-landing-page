@@ -121,13 +121,50 @@ a:visited {
   color: #1f2937;
 }
 
-.call-to-action {
+.filler {
   display: flex;
+  height: 200px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+.call-to-action-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
   background-color: #3882f6;
+  width: 900px;
+  height: 100px;
+  border-radius: 8px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.call-to-action {
+  margin: 0;
+}
+.sign-up-text {
+  margin: 0;
+  font-size: 18px;
+}
+.sign-up-btn-2 {
+  margin-right: 100px;
+}
+.sign-up-btn-2:hover {
+  background-color: #2b64becb;
+}
+.sign-up-btn-2:active {
+  background-color: #1e4686;
 }
 
 footer {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85px;
   background-color: #1f2937;
 }
 button {
@@ -142,7 +179,7 @@ button {
 }
 button:hover {
   cursor: pointer;
-  background-color: #3881f6cb;
+  background-color: #2b64becb;
 }
 button:active {
   background-color: #1e4686;
