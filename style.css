@@ -1,28 +1,33 @@
 * {
   font-family: Hero, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 18px;
+  color: #f9faf8;
+}
+body {
+  margin: 0;
 }
 
 .nav-banner {
   display: flex;
-  height: 50px;
   width: auto;
   background-color: #1f2937;
   color: white;
-
   align-items: center;
   justify-content: space-between;
+  border-top: solid #1f2937 12px;
 }
 .logo {
-  margin-left: 24px;
+  margin-left: 245px;
   font-size: 20px;
 }
-.header-link-container {
-  margin-right: 20px;
-}
+
 a {
   color: white;
   text-decoration: none;
+  margin-right: 15px;
+}
+a:last-child {
+  margin-right: 245px;
 }
 a:hover {
   background-color: orange;
@@ -42,24 +47,78 @@ a:visited {
 }
 .intro-text {
   width: 450px;
-  margin-right: 50px;
+  margin-right: 80px;
 }
 .header-text {
   font-size: 48px;
   margin: 0;
 }
-.discription {
+.description {
   margin: 0;
   font-size: 18px;
+  width: 430px;
+  color: #e5e7eb;
+}
+.main-picture {
+  border-radius: 8px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.information {
+  font-size: 36px;
+  color: #1f2937;
 }
 
 .card-container {
   display: flex;
+  justify-content: center;
+  height: 350px;
+}
+.card {
+  border: solid #3882f6;
+  border-radius: 8px;
+  margin: 0 30px;
+}
+.card-info-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subtext {
+  width: 140px;
+  justify-content: center;
+  text-align: center;
+  color: #1f2937;
+}
+.subtext::first-letter {
+  text-transform: capitalize;
 }
 
-.quote {
+.quote-container {
   display: flex;
+  flex-direction: column;
   background-color: #e5e7eb;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+}
+.quote {
+  width: 700px;
+  font-size: 32px;
+  font-style: oblique;
+  color: #3a3b3b;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+.quote-name {
+  font-weight: 600;
+  margin: 0;
+  margin-left: 400px;
+  color: #1f2937;
 }
 
 .call-to-action {
@@ -83,5 +142,8 @@ button {
 }
 button:hover {
   cursor: pointer;
-  background-color: #3881f6db;
+  background-color: #3881f6cb;
+}
+button:active {
+  background-color: #1e4686;
 }
